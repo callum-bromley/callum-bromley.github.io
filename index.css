@@ -1,0 +1,158 @@
+body {
+  background-color: #f7e9e8;
+  font-family: 'Fira Code', serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+h1 {
+  font-size: 25pt;
+  margin-bottom: 0px;
+}
+
+h2 {
+  font-size: 18pt;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+h3 {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+p {
+  font-size: 12pt;
+  color: #515a63;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table {
+  width: 20%;
+}
+
+div.container {
+  text-align: center;
+}
+
+ul.myUL {
+  display: inline-block;
+  text-align: left;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #2ecc71;
+  padding: 20px 10px;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header a.active {
+  background-color: #e54e95;
+  color: black;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+/* General styles for the header */
+.header {
+  background-color: #333; /* Dark background for the header */
+  overflow: hidden;
+  padding: 10px 20px;
+}
+
+.header a {
+  color: white; /* Default text color for all links */
+  text-decoration: none; /* Remove underlines */
+  padding: 14px 20px;
+  display: inline-block;
+}
+
+/* Logo specific styling */
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: orange; /* Change color for the "Blog" logo */
+}
+
+/* Styling for the active link */
+.active {
+  color: lightblue; /* Highlight the active page link */
+}
+
+/* Home link specific color */
+.home {
+  color: yellow;
+}
+
+/* Te Houtaewa link specific color */
+.te-houtaewa {
+  color: limegreen;
+}
+
+/* Add hover effect for links */
+.header a:hover {
+  background-color: #575757; /* Darker background on hover */
+  color: white; /* Ensure hover text is visible */
+}
+
+.move-left {
+  display: block; /* Ensures the sentence behaves like a block element */
+  text-align: left; /* Aligns the text to the left */
+  margin-left: 50px; /* Optional: Reset any margins affecting position */
+}
