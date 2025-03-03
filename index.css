@@ -109,50 +109,44 @@ ul.myUL {
   background-color: #0056b3;
 }
 
-/* General styles for the header */
 .header {
-  background-color: #333; /* Dark background for the header */
+  background-color: #333;
   overflow: hidden;
   padding: 10px 20px;
 }
 
 .header a {
-  color: white; /* Default text color for all links */
-  text-decoration: none; /* Remove underlines */
+  color: white;
+  text-decoration: none;
   padding: 14px 20px;
   display: inline-block;
 }
 
-/* Logo specific styling */
 .logo {
   font-size: 1.5em;
   font-weight: bold;
-  color: orange; /* Change color for the "Blog" logo */
+  color: orange;
 }
 
-/* Styling for the active link */
 .active {
-  color: lightblue; /* Highlight the active page link */
+  color: lightblue;
 }
 
-/* Home link specific color */
 .home {
   color: yellow;
 }
 
-/* Te Houtaewa link specific color */
 .te-houtaewa {
   color: limegreen;
 }
 
-/* Add hover effect for links */
 .header a:hover {
-  background-color: #575757; /* Darker background on hover */
-  color: white; /* Ensure hover text is visible */
+  background-color: #575757;
+  color: white;
 }
 
 .move-left {
-  display: block; /* Ensures the sentence behaves like a block element */
-  text-align: left; /* Aligns the text to the left */
-  margin-left: 50px; /* Optional: Reset any margins affecting position */
+  display: block;
+  text-align: left;
+  margin-left: 50px;
 }
